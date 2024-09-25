@@ -1,0 +1,16 @@
+.AboutComp1_Container {
+    position: relative;
+    background-image: url(../../assets/bg_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% -64.4px;
+    background-attachment: fixed;
+    height: 300px;
+}
+
+@media (max-width:768px) {
+    .AboutComp1_Container {
+        background-attachment: scroll;
+        background-position: top center;
+    }
+}

@@ -1,0 +1,108 @@
+.ContactComp2_Container {
+    position: relative;
+    padding: 48px 90px;
+}
+
+.ContactComp2_Holder {
+    display: flex;
+    flex-direction: row;
+}
+
+.ContactComp2_Section1,
+.ContactComp2_Section2 {
+    margin: 0 15px;
+}
+
+.ContactComp2_Section1 {
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 48px;
+}
+
+
+.Map {
+    width: 565px;
+    height: 480px;
+}
+
+.ContactComp2_Contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.ContactComp2_ContactIcon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #2b3991;
+    margin-bottom: 8px;
+}
+
+.ContactComp2_ContactCont h5 {
+    font-size: 20px;
+    color: #000000cc;
+    font-weight: 600;
+}
+
+.ContactComp2_ContactCont p {
+    font-size: 16px;
+    color: #00000099;
+    font-weight: 400;
+}
+
+.trails {
+    color: #2b3991;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+@media (max-width:1024px) {
+    .ContactComp2_Container {
+        padding: 48px 30px;
+    }
+
+    .Map {
+        width: 447px;
+    }
+}
+
+@media (max-width:768px) {
+    .ContactComp2_Holder {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .ContactComp2_Section1 {
+        width: 668px;
+        background-color: #f1f1f1;
+        padding: 48px;
+    }
+
+    .Map {
+        width: 668px;
+    }
+}
+
+@media (max-width:425px) {
+
+    .ContactComp2_Section1 {
+        width: 325px;
+        background-color: #f1f1f1;
+        padding: 48px;
+    }
+
+    .Map {
+        width: 325px;
+    }
+
+    .trails {
+        font-size: 15px;
+        font-weight: 500;
+    }
+}

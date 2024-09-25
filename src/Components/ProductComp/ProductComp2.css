@@ -1,0 +1,33 @@
+.ProductComp2_Container {
+    position: relative;
+    padding: 80px 80px 0 80px;
+}
+
+.ProductComp2_Section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width:1024px) {
+    .ProductComp2_Container {
+        position: relative;
+        padding: 80px 20px 0 20px;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .ProductComp2_Section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:425px) {
+
+    .ProductComp2_Section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

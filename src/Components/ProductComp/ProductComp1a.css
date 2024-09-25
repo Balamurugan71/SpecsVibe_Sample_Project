@@ -1,0 +1,111 @@
+.ProductComp1a_Container {
+    position: relative;
+    padding: 90px 80px;
+}
+
+.ProductComp1a_Section {
+    margin-top: 2rem;
+}
+
+.Optical_Section {
+    display: flex;
+    flex-direction: row;
+}
+
+.Optical_Container {
+    width: 100%;
+    padding: 30px 15px 0 15px;
+    border-right: 1px solid #00000017;
+}
+
+.Optical_Box {
+    margin: 15px 0;
+    padding: 25px 20px 20px 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Optical_Eye {
+    position: relative;
+}
+
+.Contact_Lens {
+    position: relative;
+    width: 66px;
+    height: 66px;
+    background-color: #fff;
+    border: 1px solid #00000014;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact_Lens img {
+    width: 45px;
+    height: 45px;
+    margin-top: 4px;
+}
+
+.Optical_bg {
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #eaeaea;
+    z-index: -1;
+}
+
+.Optical_Content {
+    padding-left: 30px;
+}
+
+.Optical_Content h5 {
+    margin-bottom: 8px;
+    color: #f8931d;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.Optical_Content p {
+    margin-bottom: 16px;
+    color: #00000099;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.Optical_Container:last-child {
+    border-right: none;
+}
+
+.HRLine {
+    display: block;
+    border-top: 1px solid #00000017;
+}
+
+@media (max-width:1024px) {
+    .ProductComp1a_Container {
+        padding: 90px 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .Optical_Section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Optical_Container {
+        width: 100%;
+        border-right: none;
+    }
+
+    .HRLine {
+        display: none;
+    }
+}
+
+@media (max-width:425px) {}

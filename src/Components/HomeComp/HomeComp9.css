@@ -1,0 +1,26 @@
+.HomeComp9_Container {
+    position: relative;
+    background-color: #f1f1f1;
+    padding: 40px 80px 40px 80px;
+}
+
+.BrandSlider {
+    width: 100%;
+    padding: 0 35px 0 35px;
+}
+
+.BrandImageCont {
+    margin: 3rem 20px 3rem 0;
+    /* height: 100px; */
+}
+
+.BrandImg {
+    width: 150px;
+    height: 100px;
+}
+
+@media (max-width:1024px) {
+    .HomeComp9_Container {
+        padding: 80px 20px 60px 20px;
+    }
+}

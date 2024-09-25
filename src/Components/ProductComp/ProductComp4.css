@@ -1,0 +1,32 @@
+.ProductComp4_Container {
+    position: relative;
+    padding: 0 80px;
+}
+
+.Policy_List {
+    margin-bottom: 24px;
+    padding-left: 15px;
+}
+
+.Pulicy_Ul {
+    padding: 0 40px;
+}
+
+.Policy {
+    font-size: 16px;
+    font-weight: 400;
+    color: #00000099;
+    line-height: 30px;
+}
+
+.Policy::marker {
+    font-size: 16px;
+    line-height: 30px;
+    color: #00000099;
+}
+
+@media (max-width:1024px) {
+    .ProductComp4_Container {
+        padding: 0 20px;
+    }
+}

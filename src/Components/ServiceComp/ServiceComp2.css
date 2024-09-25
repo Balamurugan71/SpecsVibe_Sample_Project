@@ -1,0 +1,46 @@
+.ServiceComp2_Container {
+    position: relative;
+    padding: 80px 80px 0 80px;
+}
+
+.ServiceComp2_Section {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.ServiceComp2_Section1 {
+    padding: 48px 48px 48px 0;
+}
+
+.Service_text {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #00000099;
+}
+
+.ServiceComp2_Image img {
+    width: 100%;
+    height: 600px;
+}
+
+@media (max-width:1024px) {
+    .ServiceComp2_Container {
+        position: relative;
+        padding: 80px 20px 0 20px;
+    }
+
+    .ServiceComp2_Image {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:425px) {
+    .ServiceComp2_Section {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}

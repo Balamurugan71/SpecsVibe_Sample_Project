@@ -1,0 +1,70 @@
+.HomeComp6_Container {
+    position: relative;
+    padding: 80px;
+    background-color: #f1f1f1;
+}
+
+.HomeComp6_CardContainer {
+    padding: 40px 60px 0 60px;
+}
+
+.HomeComp6_CardSection {
+    display: flex;
+    justify-content: center;
+}
+
+.HomeComp6_card {
+    width: 100%;
+    background-color: #2b3991;
+    margin: 0 10px;
+    padding: 35px 35px 48px 35px;
+    border-radius: 3%;
+}
+
+.HomeComp6_card h3 {
+    font-size: 25px;
+    color: #f8931d;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.HomeComp6_card p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 26px;
+    text-align: justify;
+    margin-bottom: 16px;
+}
+
+@media (max-width:1024px) {
+    .HomeComp6_Container {
+        padding: 80px 20px;
+    }
+
+    .HomeComp6_card {
+        margin: 0 8px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .HomeComp6_CardSection {
+        flex-wrap: wrap;
+    }
+
+    .HomeComp6_CardContainer {
+        padding: 40px 0 0 0;
+    }
+
+    .HomeComp6_card {
+        flex: 0 0 41%;
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width:425px) {
+    .HomeComp6_CardSection {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}

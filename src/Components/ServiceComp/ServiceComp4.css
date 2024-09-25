@@ -1,0 +1,50 @@
+.ServiceComp4_Container {
+    position: relative;
+    padding: 0 80px;
+}
+
+.ServiceComp4_CardSect {
+    padding: 15px 0;
+}
+
+.ServiceComp4_CardHolder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.ServiceComp4_Card {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.ServiceComp4_Card h5 {
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #f8931d;
+}
+
+.ServiceComp4_Card p {
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #00000099;
+    line-height: 26px;
+}
+
+.s4p {
+    padding-left: 15px;
+}
+
+@media (max-width:1024px) {
+    .ServiceComp4_Container {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .ServiceComp4_CardHolder {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

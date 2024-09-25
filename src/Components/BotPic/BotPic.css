@@ -1,0 +1,28 @@
+.BotIcon {
+    position: fixed;
+    bottom: 20px;
+    right: 2%;
+    z-index: 1000;
+
+}
+
+.BotIcon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        box-shadow: 0px 0px 0px 0px #ae003a;
+    }
+
+    50% {
+        box-shadow: 1px 1px 10px 4px #ae003a;
+    }
+
+    100% {
+        box-shadow: 0px 0px 0px 0px #ae003a;
+    }
+}

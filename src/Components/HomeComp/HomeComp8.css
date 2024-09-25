@@ -1,0 +1,56 @@
+.HomeComp8_Container {
+    position: relative;
+    padding: 80px 80px 60px 80px;
+}
+
+.HomeComp8_SliderContainer {
+    padding: 60px 100px 0 100px;
+}
+
+.SliderBox {
+    width: 100%;
+    background: linear-gradient(0deg, #dbdd0c 0%, #2de7fd 100%);
+}
+
+.SliderContent {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.SliderQuotes {
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #000000cc;
+    text-align: justify;
+}
+
+.qoutesIcon {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.SliderName {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0;
+    color: #2b3991;
+}
+
+.SliderPlace {
+    font-size: 17px;
+    color: #000;
+    font-weight: 500;
+}
+
+@media (max-width:1024px) {
+    .HomeComp8_Container {
+        padding: 80px 20px 60px 20px;
+    }
+}
+
+@media (max-width:425px) {
+    .HomeComp8_SliderContainer {
+        padding: 60px 0 0 0;
+    }
+}

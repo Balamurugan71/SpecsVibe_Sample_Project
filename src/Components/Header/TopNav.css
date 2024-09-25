@@ -1,0 +1,122 @@
+.TopNav_Container {
+    position: relative;
+    width: 100%;
+    padding: 24px 16px;
+    background: linear-gradient(0deg, #dbdd0c 0%, #2de7fd 100%);
+}
+
+.TopNav_Holder {
+    padding: 0 20px;
+    margin: 0 43.5px;
+}
+
+.TopNav_Section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo_img {
+    padding: 30px 24px 0 0;
+}
+
+.LogoImage {
+    width: 170px;
+    height: 92px;
+}
+
+.address_container {
+    display: block;
+    padding: 30px 40px 0 40px;
+}
+
+.address_container_mid {
+    display: none;
+}
+
+.address_holder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.address_box {
+    width: 100%;
+    padding-left: 14px;
+    padding-right: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headerIcon {
+    margin-right: 10px;
+    background-color: #fff;
+    color: #da1c5c;
+    font-size: 20px;
+    padding: 20px 10px;
+    border-radius: 80%;
+}
+
+.headerText {
+    color: #2b3991;
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.headerText:hover {
+    color: #f8931d;
+}
+
+@media (max-width:1024px) {
+    .TopNav_Holder {
+        margin: 0;
+    }
+
+    .address_container {
+        padding: 30px 0 0 0;
+    }
+}
+
+@media (max-width:769px) {
+
+    .TopNav_Section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .address_container {
+        display: none;
+    }
+
+    .address_container_mid {
+        display: block;
+    }
+
+    .address_holder {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .address_box {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width:425px) {
+    .TopNav_Holder {
+        margin: 0;
+    }
+
+    .address_container_mid {
+        display: none;
+    }
+
+}
